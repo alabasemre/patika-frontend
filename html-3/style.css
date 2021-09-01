@@ -1,0 +1,15 @@
+.li-header{
+  background-color: red;
+  color: white;
+  border-radius: 10px;
+  font-weight: 600;
+  padding: 2px;
+  display: inline;
+}
+
+.flex{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

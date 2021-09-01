@@ -1,0 +1,16 @@
+a{
+  text-decoration: none;
+  display: block;
+  color: black;
+  padding: 15px;
+}
+
+a:hover{
+  background-color: aqua;
+}
+
+nav ul{
+  display: flex;
+  list-style: none;
+  background-color: blanchedalmond;
+}

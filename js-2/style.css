@@ -1,0 +1,44 @@
+*{
+  box-sizing: border-box;
+}
+
+.header{
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.header h1{
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 700;
+  font-size: 48px;
+}
+
+input{
+  margin: 0;
+}
+
+
+.list-group-item:hover{
+  background-color: bisque;
+}
+
+.done{
+  background-color: turquoise;
+  text-decoration: line-through;
+  color: black;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  letter-spacing: 0.125em;
+  font-style: italic;
+}
+
+.list-group-item{
+  font-size: 18px;
+}
+
+.btn-remove{
+  border-radius: 0;
+}
+
